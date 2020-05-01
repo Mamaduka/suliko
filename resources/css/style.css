@@ -1,0 +1,72 @@
+@tailwind components;
+
+.screen-reader-text {
+	@apply sr-only;
+}
+
+.logo {
+	@apply h-16 w-16 border-2 border-gray-200 rounded-full;
+}
+
+.entry-content > :not(:last-child) {
+	@apply mb-4;
+}
+
+.entry-content a {
+	@apply underline;
+}
+
+.entry-content h2,
+.entry-content h3 {
+	@apply font-bold leading-tight mt-10;
+}
+
+.entry-content h2 {
+	@apply text-2xl;
+}
+
+.entry-content h3 {
+	@apply text-xl;
+}
+
+.entry-content :not(pre) > code {
+	@apply font-mono text-sm bg-gray-100 p-1;
+}
+
+.entry-content ol {
+	@apply list-decimal list-inside;
+}
+
+.entry-content ul {
+	@apply list-disc list-inside;
+}
+
+.entry-content li {
+	@apply pl-8;
+}
+
+.entry-content blockquote {
+	@apply mx-0 p-8 bg-indigo-100 border-l-4 border-indigo-200;
+}
+
+.entry-content blockquote cite {
+	@apply block mt-4;
+}
+
+.navigation {
+	@apply flex justify-center mb-12;
+}
+
+.navigation ul {
+	@apply flex list-none;
+}
+
+.navigation li {
+	@apply mx-2;
+}
+
+.navigation .current {
+	@apply font-bold;
+}
+
+@tailwind utilities;
