@@ -16,6 +16,10 @@
 	@apply underline;
 }
 
+.entry-content a:hover {
+	@apply text-red-500;
+}
+
 .entry-content h2,
 .entry-content h3 {
 	@apply font-bold leading-tight mt-10;
