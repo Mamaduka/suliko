@@ -1,0 +1,16 @@
+{
+  "name": "mamaduka/suliko",
+  "type": "wordpress-theme",
+  "description": "A tiny WordPress theme for my personal blog",
+  "homepage": "https://github.com/Mamaduka/suliko",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "George Mamadashvili",
+          "homepage": "https://mamaduka.com"
+      }
+  ],
+  "require": {
+    "php": ">=5.6"
+  }
+}
