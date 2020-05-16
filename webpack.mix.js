@@ -1,6 +1,4 @@
-const path = require('path')
 const mix = require('laravel-mix');
-require('laravel-mix-purgecss');
 
 const devPath = 'resources';
 
@@ -14,15 +12,7 @@ mix
   .options({
     postCss: [ require( 'tailwindcss' ) ],
     processCssUrls: false
-  })
-  .purgeCss({
-    globs             : [ path.join(__dirname, './**/*.php') ],
-    extensions        : ['php'],
-    only              : ['css/style.css'],
-    whitelist         : ['screen-reader-text', 'logo'],
-    whitelistPatterns : [/wp-block.*/],
-    whitelistPatternsChildren: [/^entry-content$/, /^navigation$/ ]
-});
+  });
 
 /*
  * Add custom Webpack configuration.
