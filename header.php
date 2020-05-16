@@ -10,7 +10,7 @@
 	<body class="h-full w-full bg-white pb-24">
 		<div id="page" class="min-h-screen flex flex-col">
 			<header id="site-header" class="flex-shrink-0" role="banner">
-				<div class="flex justify-between flex justify-between px-10 sm:px-12 lg:px-16 pt-6 pb-12 mx-auto max-w-4xl">
+				<div class="flex justify-between flex justify-between px-6 sm:px-12 lg:px-16 pt-6 pb-12 mx-auto max-w-4xl">
 					<div class="flex items-center">
 						<a href="<?php echo esc_url( home_url('/') ); ?>" rel="home">
 							<img width="150" height="150" src="<?php echo get_the_logo(); ?>" class="logo" alt="George Mamadashvili">
@@ -27,4 +27,4 @@
 					</nav>
 				</div>
 			</header>
-			<main id="site-content" class="flex-grow flex-shrink-0 px-10 sm:px-12 lg:px-16 mx-auto w-full max-w-4xl" role="main">
+			<main id="site-content" class="flex-grow flex-shrink-0 px-6 sm:px-12 lg:px-16 mx-auto w-full max-w-4xl" role="main">
